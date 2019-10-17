@@ -35,6 +35,10 @@
   box-sizing: border-box;
 }
 
+.carousel-element {
+  overflow: hidden;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -410,7 +414,7 @@ mark,
   color: #6c757d;
 }
 
-code {
+/* code {
   font-size: 87.5%;
   color: #e83e8c;
   word-break: break-word;
@@ -418,8 +422,8 @@ code {
 
 a > code {
   color: inherit;
-}
-
+} */
+/*
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
@@ -432,9 +436,9 @@ kbd kbd {
   padding: 0;
   font-size: 100%;
   font-weight: 700;
-}
+} */
 
-pre {
+/* pre {
   display: block;
   font-size: 87.5%;
   color: #212529;
@@ -444,9 +448,9 @@ pre code {
   font-size: inherit;
   color: inherit;
   word-break: normal;
-}
+} */
 
-.pre-scrollable {
+/* .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
 }
@@ -457,7 +461,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
 @media (min-width: 576px) {
   .container {
