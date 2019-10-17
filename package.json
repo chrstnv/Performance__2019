@@ -16,7 +16,6 @@
     "url": "https://github.com/chrstnv/Performance__2019/issues"
   },
   "homepage": "https://github.com/chrstnv/Performance__2019#readme",
-  "devDependencies": {
-    "webpack": "^4.41.2"
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
