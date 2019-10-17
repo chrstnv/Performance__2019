@@ -29,6 +29,10 @@
 	position: relative;
 	width: 100%;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .owl-carousel .owl-wrapper-outer.autoHeight{
 	-webkit-transition: height 500ms ease-in-out;
 	-moz-transition: height 500ms ease-in-out;
@@ -36,7 +40,11 @@
 	-o-transition: height 500ms ease-in-out;
 	transition: height 500ms ease-in-out;
 }
+<<<<<<< Updated upstream
 	
+=======
+
+>>>>>>> Stashed changes
 .owl-carousel .owl-item{
 	float: left;
 }
