@@ -3,14 +3,14 @@
 !function(t) {
     var e = window["pcodeJsonp6187"];
     window["pcodeJsonp6187"] = function(i, o, r) {
-        for (var a, s, l = 0, p = []; l < i.length; l++)
-            s = i[l],
-            n[s] && p.push(n[s][0]),
-                n[s] = 0;
-        for (a in o)
-            Object.prototype.hasOwnProperty.call(o, a) && (t[a] = o[a]);
-        for (e && e(i, o, r); p.length; )
-            p.shift()()
+        // for (var a, s, l = 0, p = []; l < i.length; l++)
+        //     s = i[l],
+        //     n[s] && p.push(n[s][0]),
+        //         n[s] = 0;
+        // for (a in o)
+        //     Object.prototype.hasOwnProperty.call(o, a) && (t[a] = o[a]);
+        // for (e && e(i, o, r); p.length; )
+        //     p.shift()()
     }
     ;
     var i = {}
@@ -30,67 +30,67 @@
             n.exports
     }
     o.e = function(t) {
-        var e = n[t];
-        if (0 === e)
-            return new Promise(function(t) {
-                    t()
-                }
-            );
-        if (e)
-            return e[2];
-        var i = new Promise(function(i, o) {
-                e = n[t] = [i, o]
-            }
-        );
-        e[2] = i;
-        var r = document.getElementsByTagName("head")[0]
-            , a = document.createElement("script");
-        a.type = "text/javascript",
-            a.charset = "utf-8",
-            a.async = !0,
-            a.timeout = 12e4,
-        o.nc && a.setAttribute("nonce", o.nc),
-            a.src = o.p + "" + {
-                0: "9b10f65b0c7e7a1d8693",
-                1: "7641180249a9d7be3cfa"
-            }[t] + ".js";
-        var s = setTimeout(l, 12e4);
-        function l() {
-            a.onerror = a.onload = null,
-                clearTimeout(s);
-            var e = n[t];
-            0 !== e && (e && e[1](new Error("Loading chunk " + t + " failed.")),
-                n[t] = void 0)
-        }
-        return a.onerror = a.onload = l,
-            r.appendChild(a),
-            i
+        // var e = n[t];
+        // if (0 === e)
+        //     return new Promise(function(t) {
+        //             t()
+        //         }
+        //     );
+        // if (e)
+        //     return e[2];
+        // var i = new Promise(function(i, o) {
+        //         e = n[t] = [i, o]
+        //     }
+        // );
+        // e[2] = i;
+        // var r = document.getElementsByTagName("head")[0]
+        //     , a = document.createElement("script");
+        // a.type = "text/javascript",
+        //     a.charset = "utf-8",
+        //     a.async = !0,
+        //     a.timeout = 12e4,
+        // o.nc && a.setAttribute("nonce", o.nc),
+        //     a.src = o.p + "" + {
+        //         0: "9b10f65b0c7e7a1d8693",
+        //         1: "7641180249a9d7be3cfa"
+        //     }[t] + ".js";
+        // var s = setTimeout(l, 12e4);
+        // function l() {
+        //     a.onerror = a.onload = null,
+        //         clearTimeout(s);
+        //     var e = n[t];
+        //     0 !== e && (e && e[1](new Error("Loading chunk " + t + " failed.")),
+        //         n[t] = void 0)
+        // }
+        // return a.onerror = a.onload = l,
+        //     r.appendChild(a),
+        //     i
     }
         ,
         o.m = t,
         o.c = i,
         o.d = function(t, e, i) {
-            o.o(t, e) || Object.defineProperty(t, e, {
-                configurable: !1,
-                enumerable: !0,
-                get: i
-            })
+            // o.o(t, e) || Object.defineProperty(t, e, {
+            //     configurable: !1,
+            //     enumerable: !0,
+            //     get: i
+            // })
         }
         ,
         o.n = function(t) {
-            var e = t && t.__esModule ? function() {
-                    return t["default"]
-                }
-                : function() {
-                    return t
-                }
-            ;
-            return o.d(e, "a", e),
-                e
+            // var e = t && t.__esModule ? function() {
+            //         return t["default"]
+            //     }
+            //     : function() {
+            //         return t
+            //     }
+            // ;
+            // return o.d(e, "a", e),
+            //     e
         }
         ,
         o.o = function(t, e) {
-            return Object.prototype.hasOwnProperty.call(t, e)
+            // return Object.prototype.hasOwnProperty.call(t, e)
         }
         ,
         o.p = "//an.yandex.ru/partner-code-bundles/6187/",
@@ -116,56 +116,56 @@
             , c = r.createComponent([a, l], {
             encodeStyles: null,
             onInit: function() {
-                this.b_ = s(this.name),
-                    this.mod = this.props.mod || this.mod;
-                var t = this.getContextComponent();
-                this.encodeStyles = Boolean(t && t.encodeStyles || this.props.encodeStyles)
+                // this.b_ = s(this.name),
+                //     this.mod = this.props.mod || this.mod;
+                // var t = this.getContextComponent();
+                // this.encodeStyles = Boolean(t && t.encodeStyles || this.props.encodeStyles)
             },
             unmount: function() {
-                this.unbindAll(),
-                    this.__base()
+                // this.unbindAll(),
+                //     this.__base()
             },
             pushStyles: function(t, e, i) {
-                p.push(t, e, i)
+                // p.push(t, e, i)
             },
             render: function() {
-                var t = this._render(this.b_, this.props, this.__self);
-                return this.rootComponent = t,
-                    t
+                // var t = this._render(this.b_, this.props, this.__self);
+                // return this.rootComponent = t,
+                //     t
             },
             _render: function() {
-                return this.getChildren()
+                // return this.getChildren()
             },
             getElement: function() {
-                return this.rootComponent.getElement()
+                // return this.rootComponent.getElement()
             },
             bind: function(t, e, i, n) {
-                this._domListeners || (this._domListeners = []);
-                var r = o.domEvent.on(t, e, i, this, n);
-                return this._domListeners.push({
-                    eventType: e,
-                    fn: i,
-                    descriptor: r
-                }),
-                    r
+                // this._domListeners || (this._domListeners = []);
+                // var r = o.domEvent.on(t, e, i, this, n);
+                // return this._domListeners.push({
+                //     eventType: e,
+                //     fn: i,
+                //     descriptor: r
+                // }),
+                //     r
             },
             unbindAll: function() {
-                this._domListeners && (o.each(this._domListeners, function(t) {
-                    o.domEvent.un(t.descriptor)
-                }),
-                    delete this._domListeners)
+                // this._domListeners && (o.each(this._domListeners, function(t) {
+                //     o.domEvent.un(t.descriptor)
+                // }),
+                //     delete this._domListeners)
             },
             setMod: function(t) {
-                this.rootComponent.addClass(this.b_(t))
+                // this.rootComponent.addClass(this.b_(t))
             },
             delMod: function(t) {
-                this.rootComponent.removeClass(this.b_(t))
+                // this.rootComponent.removeClass(this.b_(t))
             },
             addClass: function(t) {
-                this.rootComponent.addClass(t)
+                // this.rootComponent.addClass(t)
             },
             removeClass: function(t) {
-                this.rootComponent.removeClass(t)
+                // this.rootComponent.removeClass(t)
             }
         }, {
             HTML: n.Html,
@@ -181,12 +181,12 @@
             , o = function(t) {
             if (t && t.__esModule)
                 return t;
-            var e = {};
-            if (null != t)
-                for (var i in t)
-                    Object.prototype.hasOwnProperty.call(t, i) && (e[i] = t[i]);
-            return e["default"] = t,
-                e
+            // var e = {};
+            // if (null != t)
+            //     for (var i in t)
+            //         Object.prototype.hasOwnProperty.call(t, i) && (e[i] = t[i]);
+            // return e["default"] = t,
+            //     e
         }(i(4));
         var r = i(34)
             , a = r.extend(r, {
@@ -207,7 +207,7 @@
         "use strict";
         var n = i(8)
             , o = i(79);
-        function r() {}
+        // function r() {}
         function a(t) {
             return r
         }
@@ -219,9 +219,9 @@
             remoteLog: n.logger.info,
             remoteLogString: n.logger.info,
             isolate: function(t) {
-                return o("isolate", t || r, this, function(t) {
-                    t.preventProtect = !0
-                })
+                // return o("isolate", t || r, this, function(t) {
+                //     t.preventProtect = !0
+                // })
             },
             protect: o,
             setProtectedTimeout: o.setTimeout
@@ -435,77 +435,77 @@
             , a = i(15)
             , s = o.createComponent([o.components.element, r], {
             initProps: function(t) {
-                return t.tag = t.tag || "a",
-                    this.disabled = t.disabled || "a" !== t.tag,
-                    this.__base(t)
+                // return t.tag = t.tag || "a",
+                //     this.disabled = t.disabled || "a" !== t.tag,
+                //     this.__base(t)
             },
             beforeRender: function(t) {
-                this.parentLink = this.findParentLink(),
-                    this.tag = this.disabled || this.parentLink ? "yatag" : "a",
-                    this.originProps = this.props,
-                    this.props = this.extractAttributes(),
-                    this.__base(t)
+                // this.parentLink = this.findParentLink(),
+                //     this.tag = this.disabled || this.parentLink ? "yatag" : "a",
+                //     this.originProps = this.props,
+                //     this.props = this.extractAttributes(),
+                //     this.__base(t)
             },
             findParentLink: function() {
-                var t = this.getParentComponent()
-                    , e = null;
-                do {
-                    t instanceof s && (e = t),
-                    t && (t = t.getParentComponent())
-                } while (null === e && t);return null !== e && e.disabled ? null : e
+                // var t = this.getParentComponent()
+                //     , e = null;
+                // do {
+                //     t instanceof s && (e = t),
+                //     t && (t = t.getParentComponent())
+                // } while (null === e && t);return null !== e && e.disabled ? null : e
             },
             extractAttributes: function() {
-                var t = this.originProps
-                    , e = (0,
-                    n.classNamesFactory)(t.classNames)
-                    , i = a({
-                    target: t.target || "_blank",
-                    class: e(t["class"], e(this.disabled ? "::disabled" : "::active"))
-                }, t);
-                return delete i.type,
-                    delete i.disabled,
-                    delete i.classNames,
-                (this.disabled || this.parentLink) && (delete i.target,
-                    delete i.href),
-                    i
+                // var t = this.originProps
+                //     , e = (0,
+                //     n.classNamesFactory)(t.classNames)
+                //     , i = a({
+                //     target: t.target || "_blank",
+                //     class: e(t["class"], e(this.disabled ? "::disabled" : "::active"))
+                // }, t);
+                // return delete i.type,
+                //     delete i.disabled,
+                //     delete i.classNames,
+                // (this.disabled || this.parentLink) && (delete i.target,
+                //     delete i.href),
+                //     i
             },
             onMount: function() {
-                this.disabled || (this.bind("click", this.onClick, this),
-                    this.bind("mouseenter", this.onMouseEnter, this),
-                    this.bind("mouseleave", this.onMouseLeave, this))
+                // this.disabled || (this.bind("click", this.onClick, this),
+                //     this.bind("mouseenter", this.onMouseEnter, this),
+                //     this.bind("mouseleave", this.onMouseLeave, this))
             },
             onMouseEnter: function() {
-                this.setHref(this.getLink())
+                // this.setHref(this.getLink())
             },
             onMouseLeave: function() {
-                this.setHref(null)
+                // this.setHref(null)
             },
             setHref: function(t) {
-                if (this.parentLink)
-                    this.parentLink.setHref(t);
-                else {
-                    var e = t || this.getLink();
-                    this.setAttr("href", e)
-                }
+                // if (this.parentLink)
+                //     this.parentLink.setHref(t);
+                // else {
+                //     var e = t || this.getLink();
+                //     this.setAttr("href", e)
+                // }
             },
             onClick: function(t) {
-                this.parentLink || this.props.href || t.preventDefault(),
-                    t.targetComponent = this,
-                    this.fireEvent("click:link", t, this.props.type),
-                this.props.href && !t.defaultPrevented && this.fireEvent("open:link", t)
+                // this.parentLink || this.props.href || t.preventDefault(),
+                //     t.targetComponent = this,
+                //     this.fireEvent("click:link", t, this.props.type),
+                // this.props.href && !t.defaultPrevented && this.fireEvent("open:link", t)
             },
             getLink: function() {
-                return this.originProps.href || ""
+                // return this.originProps.href || ""
             }
         });
         t.exports = s
     }
     , function(t, e, i) {
         "use strict";
-        e.__esModule = !0,
-            e.isFunction = function(t) {
-                return "[object Function]" === {}.toString.call(t)
-            }
+        // e.__esModule = !0,
+        //     e.isFunction = function(t) {
+        //         return "[object Function]" === {}.toString.call(t)
+        //     }
     }
     , function(t, e, i) {
         "use strict";
@@ -1980,920 +1980,920 @@
                 o = e - t
             }
     }
-    , function(t, e, i) {
-        "use strict";
-        var n, o = (n = Object.setPrototypeOf || {
-                    __proto__: []
-                }instanceof Array && function(t, e) {
-                    t.__proto__ = e
-                }
-                || function(t, e) {
-                    for (var i in e)
-                        e.hasOwnProperty(i) && (t[i] = e[i])
-                }
-                    ,
-                    function(t, e) {
-                        function i() {
-                            this.constructor = t
-                        }
-                        n(t, e),
-                            t.prototype = null === e ? Object.create(e) : (i.prototype = e.prototype,
-                                new i)
-                    }
-            ), r = Object.assign || function(t) {
-                for (var e, i = 1, n = arguments.length; i < n; i++)
-                    for (var o in e = arguments[i])
-                        Object.prototype.hasOwnProperty.call(e, o) && (t[o] = e[o]);
-                return t
-            }
-        ;
-        e.__esModule = !0;
-        var a = i(0)
-            , s = i(90)
-            , l = i(92)
-            , p = i(22)
-            , c = i(95)
-            , d = i(263)
-            , u = i(7)
-            , m = i(530)
-            , f = i(533)
-            , h = i(536);
-        e.ResourceNode = h.ResourceNode;
-        var g = i(12)
-            , _ = i(538)
-            , y = i(56)
-            , b = i(539)
-            , v = i(540)
-            , x = function(t) {
-            function e(e) {
-                return t.call(this, e) || this
-            }
-            return o(e, t),
-                e.prototype.isAvailable = function(t) {
-                    var e = this.context.fontSize
-                        , i = this.getSize(t).height;
-                    return !("button-medium" === t && i > 3.4 * e + 2 + 1)
-                }
-                ,
-                e
-        }(h.ResourceHeightTreeContext);
-        e.AdvResourceTreeContext = x;
-        var w = function(t) {
-            function e() {
-                return null !== t && t.apply(this, arguments) || this
-            }
-            return o(e, t),
-                e.prototype.onInit = function() {
-                    t.prototype.onInit.call(this),
-                        this.prepareData()
-                }
-                ,
-                e.prototype.prepareData = function() {
-                    var t = this.props
-                        , e = t.adv
-                        , i = t.getSize
-                        , n = t.context
-                        , o = e.isAppAd
-                        , r = e.url
-                        , a = e.addInfo || {}
-                        , s = this.getDataSource().getLanguage();
-                    this.action = {
-                        url: a.callToActionUrl || r,
-                        title: o ? a.callToAction || u["default"]("INSTALL", s) : u["default"]("LEARN_MORE", s)
-                    };
-                    var l = this.coerceSize(i())
-                        , p = l.width
-                        , d = l.height;
-                    if (this.minHeight = d,
-                        this.width = p,
-                        n.setParams({
-                            fontSize: this.calcFontSize({
-                                width: this.width,
-                                height: this.minHeight
-                            })
-                        }),
-                        e.warning) {
-                        var m = c.hasImportantFlag(e.bannerFlags);
-                        this.warning = {
-                            text: e.warning,
-                            important: m
-                        }
-                    }
-                    this.warningWidth = p
-                }
-                ,
-                e.prototype.beforeRender = function(e) {
-                    t.prototype.beforeRender.call(this, e);
-                    var i = this.props
-                        , n = i.adv
-                        , o = i.context.getTheme()
-                        , r = n.isAppAd
-                        , a = n.addInfo || {};
-                    if (this.fontSize = o.fontSize,
-                        r) {
-                        var s = 5.5 * this.fontSize
-                            , l = n.icon && n.icon.getFitting(s, s)
-                            , p = l && l.src
-                            , c = Number(a.rating) || 0;
-                        this.app = {
-                            rating: c >= 3.5 ? c : 0,
-                            price: a.price,
-                            icon: p ? {
-                                src: p,
-                                size: s
-                            } : void 0
-                        }
-                    }
-                    this.prepareImage()
-                }
-                ,
-                e.prototype.prepareImage = function() {
-                    var t = this.getPicture();
-                    if (t) {
-                        var e = this.props.context.getTheme().getImageSize({
-                            width: this.width,
-                            height: this.minHeight
-                        })
-                            , i = p.calcRatio(e.maxWidth / e.maxHeight, p.calcAspectRatio(t));
-                        this.getImageSize = function() {
-                            return {
-                                width: e.maxWidth * i,
-                                height: e.maxHeight * i
-                            }
-                        }
-                            ,
-                        (t = this.getPicture()) && (this.image = r({
-                            src: t.src
-                        }, e))
-                    }
-                }
-                ,
-                e.prototype.getWarningMinHeight = function() {
-                    var t = this.warning;
-                    if (!t)
-                        return 0;
-                    var e = t.important ? .1 : 0
-                        , i = this.minHeight * this.width;
-                    return Math.max(15, i * e / this.warningWidth)
-                }
-                ,
-                e.prototype.pushCss = function() {
-                    t.prototype.pushCss.call(this);
-                    for (var e = this.props.context.getTheme(), i = 0, n = [b].concat(this.getStyles(), [v]); i < n.length; i++) {
-                        var o = n[i];
-                        this.pushStyles(o, e)
-                    }
-                }
-                ,
-                e.prototype.afterRender = function() {
-                    var e = this;
-                    t.prototype.afterRender.call(this),
-                        this.props.context.doOnReady(function() {
-                            return e.onReady()
-                        })
-                }
-                ,
-                e.prototype.onReady = function() {
-                    var t = h.memoizeResourceTreeContext(new x(this))
-                        , e = this.createResourceTree(function(e, i, n) {
-                        return void 0 === n && (n = []),
-                            t.createNode(e, i, n)
-                    });
-                    this.removeExcessResources(t, e)
-                }
-                ,
-                e.prototype.removeExcessResources = function(t, e) {
-                    for (var i = this.minHeight, n = this.coerceSize(this.props.getSize()).height, o = 0, r = t.getExcessResources("content", i, n, e); o < r.length; o++) {
-                        var a = r[o]
-                            , s = this.getResourceById(a);
-                        s && s.destroy()
-                    }
-                }
-                ,
-                e.prototype._render = function() {
-                    var t = this.b_
-                        , e = this.width
-                        , i = this.minHeight
-                        , n = this.fontSize
-                        , o = this.props.adv
-                        , r = o.adId
-                        , s = o.url
-                        , l = {
-                        width: e + "px",
-                        "min-height": i + "px",
-                        "font-size": n + "px"
-                    }
-                        , p = e * i < this.props.context.getTheme().maxSmallAdvSquare;
-                    return a.create(g, {
-                        resourceId: "root",
-                        class: t(t(), "_" + this.mod),
-                        style: l,
-                        href: s,
-                        tag: p ? "a" : "yatag",
-                        "data-id": r
-                    }, this.renderContent("content"), this.renderFeedback({}), this.renderAdtune({}))
-                }
-                ,
-                e.prototype.renderTitle = function(t) {
-                    void 0 === t && (t = {});
-                    var e = this.b_
-                        , i = this.props.adv
-                        , n = i.title
-                        , o = i.url;
-                    return n ? a.create("yatag", r({
-                        resourceId: "title",
-                        class: e("__title")
-                    }, t), a.create(g, {
-                        href: o,
-                        class: e("__link", "__link_title")
-                    }, a.create(l.Text, {
-                        hyphenates: !0,
-                        text: n
-                    }))) : null
-                }
-                ,
-                e.prototype.renderTitleBig = function() {
-                    var t = this.b_;
-                    return this.renderTitle({
-                        resourceId: "title-big",
-                        class: t("__title", "__title_big")
-                    })
-                }
-                ,
-                e.prototype.renderBody = function() {
-                    var t = this.b_
-                        , e = this.props.adv
-                        , i = e.body
-                        , n = e.url;
-                    return i ? a.create("yatag", {
-                        resourceId: "body",
-                        class: t("__body")
-                    }, a.create(g, {
-                        href: n,
-                        class: t("__link", "__link_body")
-                    }, a.create(l.Text, {
-                        hyphenates: !0,
-                        highlight: !0,
-                        text: i
-                    }))) : null
-                }
-                ,
-                e.prototype.renderSiteLinks = function() {
-                    var t = this.b_
-                        , e = this.props.adv.sitelinks || [];
-                    if (!e.length)
-                        return null;
-                    var i = e.map(function(e) {
-                        var i = e.url
-                            , n = e.title;
-                        return a.create("yatag", {
-                            class: t("__site-links-item")
-                        }, a.create(g, {
-                            href: i,
-                            class: t("__link", "__link_site-link")
-                        }, a.create(l.Text, {
-                            text: n
-                        })))
-                    });
-                    return a.create("yatag", {
-                        resourceId: "site-links",
-                        class: t("__site-links")
-                    }, i)
-                }
-                ,
-                e.prototype.renderCallouts = function() {
-                    var t = this.b_
-                        , e = this.props.adv.callouts || [];
-                    if (!e.length)
-                        return null;
-                    var i = e.map(function(e) {
-                        return a.create("yatag", {
-                            class: t("__callouts-item")
-                        }, a.create(l.Text, {
-                            text: e
-                        }))
-                    });
-                    return a.create("yatag", {
-                        resourceId: "callouts",
-                        class: t("__callouts")
-                    }, i)
-                }
-                ,
-                e.prototype.renderButtonBigImpl = function(t) {
-                    if (!this.getDataSource().hitFeatures.callToActionButton)
-                        return null;
-                    var e = this.b_
-                        , i = this.action
-                        , n = this.app
-                        , o = this.props.adv.domain
-                        , r = null;
-                    return n && n.rating ? r = a.create("yatag", {
-                        class: e("__button-extra")
-                    }, a.create(m.Stars, {
-                        value: n.rating
-                    })) : o && (r = a.create("yatag", {
-                        class: e("__button-extra", "__button-extra_domain")
-                    }, a.create("yatag", {
-                        class: e("__button-content")
-                    }, a.create("yatag", {
-                        class: e("__button-text")
-                    }, a.create(g, {
-                        href: i.url,
-                        class: e("__link", "__link_button-extra")
-                    }, a.create(l.Text, {
-                        text: o
-                    })))))),
-                        a.create("yatag", {
-                            resourceId: "button-" + t,
-                            class: e("__button", "__button_" + t)
-                        }, a.create(g, {
-                            href: i.url,
-                            class: e("__link", "__link_button-action", "__button-action")
-                        }, a.create("yatag", {
-                            class: e("__button-content")
-                        }, a.create("yatag", {
-                            class: e("__button-text")
-                        }, a.create(l.Text, {
-                            text: i.title
-                        })), n && n.price ? a.create("yatag", {
-                            class: e("__button-text")
-                        }, "\xa0\u2014 " + n.price, " ", a.create(f.Ruble, null)) : null)), r)
-                }
-                ,
-                e.prototype.renderButtonBig = function() {
-                    return this.renderButtonBigImpl("big")
-                }
-                ,
-                e.prototype.renderButtonMedium = function() {
-                    return this.renderButtonBigImpl("medium")
-                }
-                ,
-                e.prototype.renderButtonSmall = function() {
-                    if (!this.getDataSource().hitFeatures.callToActionButton)
-                        return null;
-                    var t = this.b_
-                        , e = this.action
-                        , i = this.props.adv.domain;
-                    return a.create("yatag", {
-                        resourceId: "button-small",
-                        class: t("__button", "__button_small")
-                    }, a.create(g, {
-                        href: e.url,
-                        class: t("__link", "__link_button-action", "__button-action")
-                    }, a.create("yatag", {
-                        class: t("__button-content")
-                    }, a.create("yatag", {
-                        class: t("__button-text")
-                    }, a.create(l.Text, {
-                        text: i || e.title
-                    }))), i ? a.create("yatag", {
-                        class: t("__button-text")
-                    }, "\xa0", a.create("yatag", {
-                        class: t("__button-chevron")
-                    })) : null))
-                }
-                ,
-                e.prototype.renderWarning = function() {
-                    var t = this.b_
-                        , e = this.warning
-                        , i = this.props.context
-                        , n = Math.max(i.getTheme().warningHeight, this.getWarningMinHeight())
-                        , o = {
-                        "min-height": n
-                    };
-                    return e ? a.create("yatag", {
-                        resourceId: "warning",
-                        class: t("__warning", "__warning_" + (e.important ? "important" : "normal")),
-                        style: o
-                    }, a.create(d.Scroll, {
-                        calculateScroll: function(t) {
-                            return i.doOnReady(t)
-                        }
-                    }, a.create("yatag", {
-                        class: t("__warning-text")
-                    }, a.create(l.Text, {
-                        text: e.text
-                    })))) : n ? a.create("yatag", {
-                        resourceId: "warning",
-                        style: o
-                    }) : null
-                }
-                ,
-                e.prototype.renderLogo = function(t) {
-                    void 0 === t && (t = "default");
-                    var e = this.b_
-                        , i = this.props.logo;
-                    return i ? a.create(g, {
-                        href: i.url,
-                        class: e("__link", "__logo", "__logo_" + t)
-                    }, a.create(l.Text, {
-                        text: i.title
-                    })) : null
-                }
-                ,
-                e.prototype.renderLogoStub = function() {
-                    var t = this.b_;
-                    return this.props.logo ? a.create("yatag", {
-                        resourceId: "logo-stub",
-                        class: t("__logo-stub")
-                    }) : null
-                }
-                ,
-                e.prototype.renderAge = function(t) {
-                    void 0 === t && (t = "default");
-                    var e = this.b_
-                        , i = this.props.adv.age;
-                    return i ? a.create("yatag", {
-                        class: e("__age", "__age_" + t)
-                    }, i) : null
-                }
-                ,
-                e.prototype.renderAppIcon = function() {
-                    var t = this.b_
-                        , e = this.app;
-                    if (!e || !e.icon)
-                        return null;
-                    var i = e.icon
-                        , n = i.src
-                        , o = i.size
-                        , r = {
-                        width: o,
-                        height: o,
-                        "background-image": "url(" + n + ")"
-                    };
-                    return a.create("yatag", {
-                        class: t("__app-icon"),
-                        style: r
-                    })
-                }
-                ,
-                e.prototype.registerImageViewport = function(t) {
-                    var e = this
-                        , i = this.props.context;
-                    i.doOnReady(function() {
-                        return i.doOnReady(function() {
-                            var i = e.getResourceById(t);
-                            if (i) {
-                                var n = i.getElement();
-                                if (n) {
-                                    var o = y.getElementInnerSize(n)
-                                        , r = o.width / o.height
-                                        , a = e.getPicture()
-                                        , s = a.width
-                                        , l = a.height
-                                        , p = a.smartCenter
-                                        , c = s / l
-                                        , d = {
-                                        x: p.x + p.width / 2,
-                                        y: p.y + p.height / 2
-                                    }
-                                        , u = _.calcBackgroundPosition(d, r, c);
-                                    i.setStyle({
-                                        "background-position": 100 * u.x + "% " + 100 * u.y + "%"
-                                    })
-                                }
-                            }
-                        })
-                    })
-                }
-                ,
-                e
-        }(s);
-        e.AdvAdaptive = w
-    }
-    , function(t, e, i) {
-        "use strict";
-        var n = Object.assign || function(t) {
-                for (var e, i = 1, n = arguments.length; i < n; i++)
-                    for (var o in e = arguments[i])
-                        Object.prototype.hasOwnProperty.call(e, o) && (t[o] = e[o]);
-                return t
-            }
-        ;
-        e.__esModule = !0;
-        var o = i(412);
-        e.prettify = function(t, e) {
-            var i = n({
-                gluePrepositions: !0,
-                maxGluedLength: 1 / 0,
-                softBreakPunct: !1
-            }, e);
-            if (function(t) {
-                return /[\u0404\u0406\u0407\u0454\u0456\u0457\u0490\u0491]/.test(t)
-            }(t))
-                return t;
-            var r = (t = o.htmlToUtf(t)).match(/"/g)
-                , a = new RegExp('(^|\\s)"([.\\-\\s\\da-zA-Z\u0430-\u044f\u0410-\u042f\u0451\u0401]{3,})"',"g")
-                , s = t.match(a);
-            return r && s && r.length % 2 == 0 && r.length / 2 === s.length && (t = t.replace(a, function(t, e, i) {
-                return /^[\-\s]|[\-\s]$|^[\-\s\d]+$/.test(i) ? t : e + "\xab" + i + "\xbb"
-            })),
-            i.gluePrepositions && (t = t.replace(new RegExp('(^|\\(|\\s)([\u0410\u0430]|[\u0411\u0431]\u0435\u0437|[\u0412\u0432](?:|\u044b|\u0430\u0441|\u0430\u043c|\u0441\u0435|\u0441\u0451)|[\u0413\u0433]\u0434\u0435|[\u0414\u0434](?:\u043e|\u043b\u044f)|[\u0417\u0437]\u0430|[\u0418\u0438](?:|\u0437)|[\u041a\u043a](?:|\u043e|\u0430\u043a)|[\u041c\u043c]\u044b|[\u041d\u043d](?:\u0430|\u0430\u043c|\u0430\u0441|\u0435|\u0438|\u043e)|[\u041e\u043e](?:|\u0431|\u0442)|[\u041f\u043f](?:\u043e|\u0440\u043e)|[\u0421\u0441](?:|\u043e)|[\u0422\u0442](?:\u043e|\u0443\u0442|\u044b)|[\u0423\u0443]|[\u0427\u0447]\u0442\u043e|[\u042d\u044d]\u0442\u043e)\\s([\xab"$\\da-zA-Z\u0430-\u044f\u0410-\u042f\u0451\u0401]+)',"g"), function(t, e, n, o) {
-                return (n + o).length + 1 <= i.maxGluedLength ? e + n + "\xa0" + o : t
-            })),
-            i.softBreakPunct && (t = t.replace(/([.,!?:;)+]+|[^<]\/|=(?!"))([^ -])(?!$|[.,!?:;)+=\/ ])/g, "$1<wbr />$2")),
-                t = t.replace(/([0-9]+) (?=[0-9]{3})/g, "$1\xa0").replace(/([0-9\u00A0]+) (\u0440|\u0440\u0443\u0431|\u0442\u044b\u0441|\u043c\u043b\u043d|\u043a\u043c|\u043c|\u0441\u043c|\u043c\u043c)(?=[.,?!:;\s]|$)/g, function(t, e, n) {
-                    return t.length <= i.maxGluedLength ? e + "\xa0" + n : t
-                }).replace(/ \-(\d\d?)%/g, " \u2212$1%").replace(/ !/, "\xa0!")
-        }
-    }
-    , function(t, e, i) {
-        "use strict";
-        var n = i(77);
-        t.exports = {
-            on: n.on,
-            un: n.un
-        }
-    }
-    , function(t, e, i) {
-        "use strict";
-        t.exports = i(21).indexOf
-    }
-    , function(t, e, i) {
-        "use strict";
-        e.__esModule = !0;
-        var n = i(13);
-        e.callSafe = function(t) {
-            try {
-                return t()
-            } catch (t) {
-                return
-            }
-        }
-            ,
-            e.protect = function(t, i, o, r) {
-                return function() {
-                    try {
-                        return i.apply(o || this, arguments)
-                    } catch (i) {
-                        if (n.isFunction(r) && r(i),
-                        !0 === i.preventProtect)
-                            throw i;
-                        e.protect.log(i, t)
-                    }
-                }
-            }
-            ,
-            e.protect.log = function(t, e) {
-                console.log("LOG:" + e + ":" + t)
-            }
-            ,
-            e.protect.setTimeout = function(t, i, n, o) {
-                return window.setTimeout(e.protect("timeout", t, n, o), i)
-            }
-    }
-    , function(t, e, i) {
-        "use strict";
-        e.__esModule = !0,
-            e.forOwn = function(t, e, i) {
-                for (var n in t)
-                    t.hasOwnProperty(n) && e.call(i, t[n], n, t)
-            }
-    }
-    , function(t, e, i) {
-        "use strict";
-        e.__esModule = !0,
-            e.isString = function(t) {
-                return "string" == typeof t
-            }
-    }
-    , function(t, e, i) {
-        "use strict";
-        function n() {
-            return window.Ya || (window.Ya = {})
-        }
-        function o() {
-            var t = n();
-            return t.Context || (t.Context = {})
-        }
-        e.__esModule = !0,
-            e.setGlobalVariable = function(t, e) {
-                o()[t] = e
-            }
-            ,
-            e.getGlobalVariable = function(t) {
-                return o()[t]
-            }
-            ,
-            e.getYa = n,
-            e.getYaContext = o
-    }
-    , function(t, e, i) {
-        "use strict";
-        e.__esModule = !0,
-            e.noop = function() {
-                for (var t = [], e = 0; e < arguments.length; e++)
-                    t[e] = arguments[e]
-            }
-    }
-    , function(t, e, i) {
-        "use strict";
-        e.__esModule = !0;
-        var n = i(177).getNativeMethod(Array, "isArray")
-            , o = {};
-        e.isArray = Boolean(n) ? function(t) {
-                return n.call(Array, t)
-            }
-            : function(t) {
-                return "[object Array]" === o.toString.call(o, t)
-            }
-    }
-    , function(t, e, i) {
-        "use strict";
-        var n = i(195)
-            , o = i(128)
-            , r = i(196)
-            , a = i(10)
-            , s = i(127)
-            , l = i(356);
-        function p(t, e) {
-            if (e) {
-                var i = a.indexOf(e, t);
-                -1 !== i && (e[i] = null)
-            }
-        }
-        var c = a.augment(n, {
-            __embeddedResources: null,
-            __children: null,
-            __contextComponent: null,
-            __parentComponent: null,
-            __resourceId: null,
-            __state: null,
-            props: null,
-            constructor: function(t, e, i) {
-                this.__state = l.INITIAL,
-                (t = t || {}).hasOwnProperty("resourceId") && (this.__resourceId = t.resourceId,
-                    delete t.resourceId),
-                    this.__embeddedResources = [],
-                    this.__children = a.isArray(e) ? e : [],
-                    this.__contextComponent = i,
-                i && i.addToEmbeddedResources(this),
-                    this.props = this.initProps(t),
-                    this.onInit()
-            },
-            addToEmbeddedResources: function(t) {
-                this.__embeddedResources.push(t)
-            },
-            initProps: function(t) {
-                return t
-            },
-            destroy: function() {
-                this.unmount();
-                var t = this.getContextComponent();
-                t && t._removeFromEmbeddedResources(this);
-                var e = this.__parentComponent;
-                e && e._removeFromExternalResources(this),
-                    a.each(this.__children, function(t) {
-                        t instanceof n && t.destroy()
-                    }, this),
-                    this.onDestroy(),
-                    this.__state = l.DESTROYED
-            },
-            unmount: function() {
-                this._clearEmbeddedResources(),
-                    a.each(this.__children, function(t) {
-                        t instanceof n && t.unmount()
-                    }, this),
-                    this.onUnmount(),
-                    this.__state = l.UNMOUNTED
-            },
-            onInit: s,
-            onDestroy: s,
-            onUnmount: s,
-            onMount: s,
-            _clearEmbeddedResources: function() {
-                a.each(this.__embeddedResources, function(t) {
-                    t instanceof n && t.destroy()
-                }),
-                    this.__embeddedResources = []
-            },
-            _removeFromExternalResources: function(t) {
-                p(t, this.__children)
-            },
-            _removeFromEmbeddedResources: function(t) {
-                p(t, this.__embeddedResources)
-            },
-            findEmbeddedResources: function(t) {
-                var e = [];
-                if (!a.isFunction(t)) {
-                    var i = t;
-                    t = function(t) {
-                        return t.__resourceId === i
-                    }
-                }
-                return a.each(this.__embeddedResources, function(i) {
-                    i && t(i) && e.push(i)
-                }),
-                    e
-            },
-            getResourceById: function(t) {
-                for (var e = this.__embeddedResources, i = e.length, n = 0; n < i; n++) {
-                    var o = e[n];
-                    if (o && o.__resourceId === t)
-                        return o
-                }
-                return null
-            },
-            getParentComponent: function() {
-                return this.__parentComponent
-            },
-            getContextComponent: function() {
-                return this.__contextComponent
-            },
-            getChildren: function() {
-                return this.__children
-            },
-            pushCallback: function(t) {
-                r.push(t, this)
-            },
-            shouldRender: function() {
-                return !0
-            },
-            render: function() {
-                return this.getChildren()
-            },
-            callRendering: function(t) {
-                this.__state === l.MOUNTED ? this.unmount() : this.__parentComponent = o.getCurrentComponent();
-                var e, i = t(this);
-                return this.__lastElement = (e = i.childNodes).length ? e[e.length - 1] : null,
-                    this.__state = l.MOUNTED,
-                    i
-            },
-            update: function() {
-                return o.updateComponentInNode(this.__lastElement, this)
-            }
-        });
-        t.exports = c
-    }
-    , function(t, e, i) {
-        "use strict";
-        e.__esModule = !0;
-        var n = [];
-        function o(t) {
-            return 0 === t.indexOf(e.FAKE_IMP_ID)
-        }
-        e.FAKE_IMP_ID = "100500",
-            e.generateImpId = function(t) {
-                var i = n.indexOf(t);
-                return -1 === i && (i = n.length,
-                    n.push(t)),
-                e.FAKE_IMP_ID + "_" + i
-            }
-            ,
-            e.isFakeImpId = o,
-            e.getRealImpId = function(t) {
-                return o(t) ? e.FAKE_IMP_ID : t
-            }
-    }
-    , function(t, e, i) {
-        "use strict";
-        e.__esModule = !0;
-        var n = i(192)
-            , o = i(81);
-        e.compareArrays = function(t, e) {
-            for (var i = t.length, n = e.length, o = Math.min(i, n), r = 0; r < o; r++) {
-                if (t[r] < e[r])
-                    return -1;
-                if (t[r] > e[r])
-                    return 1
-            }
-            return i - n
-        }
-            ,
-            e.flushQueue = function(t, e) {
-                for (; t.length; )
-                    e(t.shift())
-            }
-            ,
-            e.getSectionLimit = function(t, e, i) {
-                for (var n = 0, o = 1 / 0, r = 0, a = 0, s = t; a < s.length; a++) {
-                    var l = s[a];
-                    if (n += l,
-                    e * (o = Math.min(o, l)) / n < i)
-                        return r;
-                    r++
-                }
-                return r
-            }
-            ,
-            e.createExpander = function() {
-                var t = document.createElement("div");
-                return n.setStyle(t, {
-                    display: "table",
-                    "table-layout": "fixed",
-                    width: "100%",
-                    height: "0",
-                    visibility: "hidden"
-                }),
-                    t.innerHTML = '<div style="display:table-row"><div style="display:table-cell"></div></div>',
-                    t
-            }
-            ,
-            e.calcAvg = function() {
-                for (var t = [], e = 0; e < arguments.length; e++)
-                    t[e] = arguments[e];
-                return o.reduce(t, function(t, e) {
-                    return t + e
-                }) / t.length
-            }
-    }
-    , function(t, e, i) {
-        "use strict";
-        var n = i(96)
-            , o = i(2);
-        t.exports = function(t, e, i) {
-            return i || (i = t),
-                i.addClass(e.join(" ")),
-                o.each(e, function(e) {
-                    !function(t, e, i) {
-                        var o = t.getElement();
-                        (0,
-                            n.hasScrollInElement)(o) || (i.removeClass(e),
-                        (0,
-                            n.hasScrollInElement)(o) && i.addClass(e))
-                    }(t, e, i)
-                }),
-                (0,
-                    n.hasScrollInElement)(t.getElement())
-        }
-    }
-    , function(t, e, i) {
-        "use strict";
-        var n;
-        n = i(204),
-            t.exports = n
-    }
-    , function(t, e, i) {
-        "use strict";
-        e.__esModule = !0,
-            e.removeNodeFromParent = function(t) {
-                if (t) {
-                    var e = t.parentElement;
-                    e && e.removeChild(t)
-                }
-            }
-    }
-    , function(t, e, i) {
-        "use strict";
-        var n, o = (n = Object.setPrototypeOf || {
-                    __proto__: []
-                }instanceof Array && function(t, e) {
-                    t.__proto__ = e
-                }
-                || function(t, e) {
-                    for (var i in e)
-                        e.hasOwnProperty(i) && (t[i] = e[i])
-                }
-                ,
-                function(t, e) {
-                    function i() {
-                        this.constructor = t
-                    }
-                    n(t, e),
-                        t.prototype = null === e ? Object.create(e) : (i.prototype = e.prototype,
-                            new i)
-                }
-        );
-        e.__esModule = !0;
-        var r = i(97)
-            , a = function(t) {
-            function e(e) {
-                return t.apply(this, arguments) || this
-            }
-            return o(e, t),
-                e.prototype.onInit = function() {
-                    var t = this.props;
-                    this.encodeStyles = this.getContextComponent().encodeStyles,
-                    this.encodeStyles && (t.text = r.encodeTemplate(t.text))
-                }
-                ,
-                e.prototype.beforeRender = function(t) {
-                    var e = this.props.text.toString() || "";
-                    return t.getCurrentElement().insertAdjacentHTML("beforeend", e),
-                        !1
-                }
-                ,
-                e
-        }(i(145));
-        e.Html = a
-    }
-    , function(t, e, i) {
-        "use strict";
-        e.__esModule = !0;
-        var n = i(387);
-        function o(t, e) {
-            var i = function(t, e) {
-                return e in t.style && n.getStyle(t).getPropertyValue(e) || "0"
-            }(t, "padding-" + e);
-            return parseFloat(i)
-        }
-        e.getElementInnerSize = function(t) {
-            return {
-                width: Math.max(0, t.clientWidth - o(t, "left") - o(t, "right")),
-                height: Math.max(0, t.clientHeight - o(t, "top") - o(t, "bottom"))
-            }
-        }
-    }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     var n, o = (n = Object.setPrototypeOf || {
+    //                 __proto__: []
+    //             }instanceof Array && function(t, e) {
+    //                 t.__proto__ = e
+    //             }
+    //             || function(t, e) {
+    //                 for (var i in e)
+    //                     e.hasOwnProperty(i) && (t[i] = e[i])
+    //             }
+    //                 ,
+    //                 function(t, e) {
+    //                     function i() {
+    //                         this.constructor = t
+    //                     }
+    //                     n(t, e),
+    //                         t.prototype = null === e ? Object.create(e) : (i.prototype = e.prototype,
+    //                             new i)
+    //                 }
+    //         ), r = Object.assign || function(t) {
+    //             for (var e, i = 1, n = arguments.length; i < n; i++)
+    //                 for (var o in e = arguments[i])
+    //                     Object.prototype.hasOwnProperty.call(e, o) && (t[o] = e[o]);
+    //             return t
+    //         }
+    //     ;
+    //     e.__esModule = !0;
+    //     var a = i(0)
+    //         , s = i(90)
+    //         , l = i(92)
+    //         , p = i(22)
+    //         , c = i(95)
+    //         , d = i(263)
+    //         , u = i(7)
+    //         , m = i(530)
+    //         , f = i(533)
+    //         , h = i(536);
+    //     e.ResourceNode = h.ResourceNode;
+    //     var g = i(12)
+    //         , _ = i(538)
+    //         , y = i(56)
+    //         , b = i(539)
+    //         , v = i(540)
+    //         , x = function(t) {
+    //         function e(e) {
+    //             return t.call(this, e) || this
+    //         }
+    //         return o(e, t),
+    //             e.prototype.isAvailable = function(t) {
+    //                 var e = this.context.fontSize
+    //                     , i = this.getSize(t).height;
+    //                 return !("button-medium" === t && i > 3.4 * e + 2 + 1)
+    //             }
+    //             ,
+    //             e
+    //     }(h.ResourceHeightTreeContext);
+    //     e.AdvResourceTreeContext = x;
+    //     var w = function(t) {
+    //         function e() {
+    //             return null !== t && t.apply(this, arguments) || this
+    //         }
+    //         return o(e, t),
+    //             e.prototype.onInit = function() {
+    //                 t.prototype.onInit.call(this),
+    //                     this.prepareData()
+    //             }
+    //             ,
+    //             e.prototype.prepareData = function() {
+    //                 var t = this.props
+    //                     , e = t.adv
+    //                     , i = t.getSize
+    //                     , n = t.context
+    //                     , o = e.isAppAd
+    //                     , r = e.url
+    //                     , a = e.addInfo || {}
+    //                     , s = this.getDataSource().getLanguage();
+    //                 this.action = {
+    //                     url: a.callToActionUrl || r,
+    //                     title: o ? a.callToAction || u["default"]("INSTALL", s) : u["default"]("LEARN_MORE", s)
+    //                 };
+    //                 var l = this.coerceSize(i())
+    //                     , p = l.width
+    //                     , d = l.height;
+    //                 if (this.minHeight = d,
+    //                     this.width = p,
+    //                     n.setParams({
+    //                         fontSize: this.calcFontSize({
+    //                             width: this.width,
+    //                             height: this.minHeight
+    //                         })
+    //                     }),
+    //                     e.warning) {
+    //                     var m = c.hasImportantFlag(e.bannerFlags);
+    //                     this.warning = {
+    //                         text: e.warning,
+    //                         important: m
+    //                     }
+    //                 }
+    //                 this.warningWidth = p
+    //             }
+    //             ,
+    //             e.prototype.beforeRender = function(e) {
+    //                 t.prototype.beforeRender.call(this, e);
+    //                 var i = this.props
+    //                     , n = i.adv
+    //                     , o = i.context.getTheme()
+    //                     , r = n.isAppAd
+    //                     , a = n.addInfo || {};
+    //                 if (this.fontSize = o.fontSize,
+    //                     r) {
+    //                     var s = 5.5 * this.fontSize
+    //                         , l = n.icon && n.icon.getFitting(s, s)
+    //                         , p = l && l.src
+    //                         , c = Number(a.rating) || 0;
+    //                     this.app = {
+    //                         rating: c >= 3.5 ? c : 0,
+    //                         price: a.price,
+    //                         icon: p ? {
+    //                             src: p,
+    //                             size: s
+    //                         } : void 0
+    //                     }
+    //                 }
+    //                 this.prepareImage()
+    //             }
+    //             ,
+    //             e.prototype.prepareImage = function() {
+    //                 var t = this.getPicture();
+    //                 if (t) {
+    //                     var e = this.props.context.getTheme().getImageSize({
+    //                         width: this.width,
+    //                         height: this.minHeight
+    //                     })
+    //                         , i = p.calcRatio(e.maxWidth / e.maxHeight, p.calcAspectRatio(t));
+    //                     this.getImageSize = function() {
+    //                         return {
+    //                             width: e.maxWidth * i,
+    //                             height: e.maxHeight * i
+    //                         }
+    //                     }
+    //                         ,
+    //                     (t = this.getPicture()) && (this.image = r({
+    //                         src: t.src
+    //                     }, e))
+    //                 }
+    //             }
+    //             ,
+    //             e.prototype.getWarningMinHeight = function() {
+    //                 var t = this.warning;
+    //                 if (!t)
+    //                     return 0;
+    //                 var e = t.important ? .1 : 0
+    //                     , i = this.minHeight * this.width;
+    //                 return Math.max(15, i * e / this.warningWidth)
+    //             }
+    //             ,
+    //             e.prototype.pushCss = function() {
+    //                 t.prototype.pushCss.call(this);
+    //                 for (var e = this.props.context.getTheme(), i = 0, n = [b].concat(this.getStyles(), [v]); i < n.length; i++) {
+    //                     var o = n[i];
+    //                     this.pushStyles(o, e)
+    //                 }
+    //             }
+    //             ,
+    //             e.prototype.afterRender = function() {
+    //                 var e = this;
+    //                 t.prototype.afterRender.call(this),
+    //                     this.props.context.doOnReady(function() {
+    //                         return e.onReady()
+    //                     })
+    //             }
+    //             ,
+    //             e.prototype.onReady = function() {
+    //                 var t = h.memoizeResourceTreeContext(new x(this))
+    //                     , e = this.createResourceTree(function(e, i, n) {
+    //                     return void 0 === n && (n = []),
+    //                         t.createNode(e, i, n)
+    //                 });
+    //                 this.removeExcessResources(t, e)
+    //             }
+    //             ,
+    //             e.prototype.removeExcessResources = function(t, e) {
+    //                 for (var i = this.minHeight, n = this.coerceSize(this.props.getSize()).height, o = 0, r = t.getExcessResources("content", i, n, e); o < r.length; o++) {
+    //                     var a = r[o]
+    //                         , s = this.getResourceById(a);
+    //                     s && s.destroy()
+    //                 }
+    //             }
+    //             ,
+    //             e.prototype._render = function() {
+    //                 var t = this.b_
+    //                     , e = this.width
+    //                     , i = this.minHeight
+    //                     , n = this.fontSize
+    //                     , o = this.props.adv
+    //                     , r = o.adId
+    //                     , s = o.url
+    //                     , l = {
+    //                     width: e + "px",
+    //                     "min-height": i + "px",
+    //                     "font-size": n + "px"
+    //                 }
+    //                     , p = e * i < this.props.context.getTheme().maxSmallAdvSquare;
+    //                 return a.create(g, {
+    //                     resourceId: "root",
+    //                     class: t(t(), "_" + this.mod),
+    //                     style: l,
+    //                     href: s,
+    //                     tag: p ? "a" : "yatag",
+    //                     "data-id": r
+    //                 }, this.renderContent("content"), this.renderFeedback({}), this.renderAdtune({}))
+    //             }
+    //             ,
+    //             e.prototype.renderTitle = function(t) {
+    //                 void 0 === t && (t = {});
+    //                 var e = this.b_
+    //                     , i = this.props.adv
+    //                     , n = i.title
+    //                     , o = i.url;
+    //                 return n ? a.create("yatag", r({
+    //                     resourceId: "title",
+    //                     class: e("__title")
+    //                 }, t), a.create(g, {
+    //                     href: o,
+    //                     class: e("__link", "__link_title")
+    //                 }, a.create(l.Text, {
+    //                     hyphenates: !0,
+    //                     text: n
+    //                 }))) : null
+    //             }
+    //             ,
+    //             e.prototype.renderTitleBig = function() {
+    //                 var t = this.b_;
+    //                 return this.renderTitle({
+    //                     resourceId: "title-big",
+    //                     class: t("__title", "__title_big")
+    //                 })
+    //             }
+    //             ,
+    //             e.prototype.renderBody = function() {
+    //                 var t = this.b_
+    //                     , e = this.props.adv
+    //                     , i = e.body
+    //                     , n = e.url;
+    //                 return i ? a.create("yatag", {
+    //                     resourceId: "body",
+    //                     class: t("__body")
+    //                 }, a.create(g, {
+    //                     href: n,
+    //                     class: t("__link", "__link_body")
+    //                 }, a.create(l.Text, {
+    //                     hyphenates: !0,
+    //                     highlight: !0,
+    //                     text: i
+    //                 }))) : null
+    //             }
+    //             ,
+    //             e.prototype.renderSiteLinks = function() {
+    //                 var t = this.b_
+    //                     , e = this.props.adv.sitelinks || [];
+    //                 if (!e.length)
+    //                     return null;
+    //                 var i = e.map(function(e) {
+    //                     var i = e.url
+    //                         , n = e.title;
+    //                     return a.create("yatag", {
+    //                         class: t("__site-links-item")
+    //                     }, a.create(g, {
+    //                         href: i,
+    //                         class: t("__link", "__link_site-link")
+    //                     }, a.create(l.Text, {
+    //                         text: n
+    //                     })))
+    //                 });
+    //                 return a.create("yatag", {
+    //                     resourceId: "site-links",
+    //                     class: t("__site-links")
+    //                 }, i)
+    //             }
+    //             ,
+    //             e.prototype.renderCallouts = function() {
+    //                 var t = this.b_
+    //                     , e = this.props.adv.callouts || [];
+    //                 if (!e.length)
+    //                     return null;
+    //                 var i = e.map(function(e) {
+    //                     return a.create("yatag", {
+    //                         class: t("__callouts-item")
+    //                     }, a.create(l.Text, {
+    //                         text: e
+    //                     }))
+    //                 });
+    //                 return a.create("yatag", {
+    //                     resourceId: "callouts",
+    //                     class: t("__callouts")
+    //                 }, i)
+    //             }
+    //             ,
+    //             e.prototype.renderButtonBigImpl = function(t) {
+    //                 if (!this.getDataSource().hitFeatures.callToActionButton)
+    //                     return null;
+    //                 var e = this.b_
+    //                     , i = this.action
+    //                     , n = this.app
+    //                     , o = this.props.adv.domain
+    //                     , r = null;
+    //                 return n && n.rating ? r = a.create("yatag", {
+    //                     class: e("__button-extra")
+    //                 }, a.create(m.Stars, {
+    //                     value: n.rating
+    //                 })) : o && (r = a.create("yatag", {
+    //                     class: e("__button-extra", "__button-extra_domain")
+    //                 }, a.create("yatag", {
+    //                     class: e("__button-content")
+    //                 }, a.create("yatag", {
+    //                     class: e("__button-text")
+    //                 }, a.create(g, {
+    //                     href: i.url,
+    //                     class: e("__link", "__link_button-extra")
+    //                 }, a.create(l.Text, {
+    //                     text: o
+    //                 })))))),
+    //                     a.create("yatag", {
+    //                         resourceId: "button-" + t,
+    //                         class: e("__button", "__button_" + t)
+    //                     }, a.create(g, {
+    //                         href: i.url,
+    //                         class: e("__link", "__link_button-action", "__button-action")
+    //                     }, a.create("yatag", {
+    //                         class: e("__button-content")
+    //                     }, a.create("yatag", {
+    //                         class: e("__button-text")
+    //                     }, a.create(l.Text, {
+    //                         text: i.title
+    //                     })), n && n.price ? a.create("yatag", {
+    //                         class: e("__button-text")
+    //                     }, "\xa0\u2014 " + n.price, " ", a.create(f.Ruble, null)) : null)), r)
+    //             }
+    //             ,
+    //             e.prototype.renderButtonBig = function() {
+    //                 return this.renderButtonBigImpl("big")
+    //             }
+    //             ,
+    //             e.prototype.renderButtonMedium = function() {
+    //                 return this.renderButtonBigImpl("medium")
+    //             }
+    //             ,
+    //             e.prototype.renderButtonSmall = function() {
+    //                 if (!this.getDataSource().hitFeatures.callToActionButton)
+    //                     return null;
+    //                 var t = this.b_
+    //                     , e = this.action
+    //                     , i = this.props.adv.domain;
+    //                 return a.create("yatag", {
+    //                     resourceId: "button-small",
+    //                     class: t("__button", "__button_small")
+    //                 }, a.create(g, {
+    //                     href: e.url,
+    //                     class: t("__link", "__link_button-action", "__button-action")
+    //                 }, a.create("yatag", {
+    //                     class: t("__button-content")
+    //                 }, a.create("yatag", {
+    //                     class: t("__button-text")
+    //                 }, a.create(l.Text, {
+    //                     text: i || e.title
+    //                 }))), i ? a.create("yatag", {
+    //                     class: t("__button-text")
+    //                 }, "\xa0", a.create("yatag", {
+    //                     class: t("__button-chevron")
+    //                 })) : null))
+    //             }
+    //             ,
+    //             e.prototype.renderWarning = function() {
+    //                 var t = this.b_
+    //                     , e = this.warning
+    //                     , i = this.props.context
+    //                     , n = Math.max(i.getTheme().warningHeight, this.getWarningMinHeight())
+    //                     , o = {
+    //                     "min-height": n
+    //                 };
+    //                 return e ? a.create("yatag", {
+    //                     resourceId: "warning",
+    //                     class: t("__warning", "__warning_" + (e.important ? "important" : "normal")),
+    //                     style: o
+    //                 }, a.create(d.Scroll, {
+    //                     calculateScroll: function(t) {
+    //                         return i.doOnReady(t)
+    //                     }
+    //                 }, a.create("yatag", {
+    //                     class: t("__warning-text")
+    //                 }, a.create(l.Text, {
+    //                     text: e.text
+    //                 })))) : n ? a.create("yatag", {
+    //                     resourceId: "warning",
+    //                     style: o
+    //                 }) : null
+    //             }
+    //             ,
+    //             e.prototype.renderLogo = function(t) {
+    //                 void 0 === t && (t = "default");
+    //                 var e = this.b_
+    //                     , i = this.props.logo;
+    //                 return i ? a.create(g, {
+    //                     href: i.url,
+    //                     class: e("__link", "__logo", "__logo_" + t)
+    //                 }, a.create(l.Text, {
+    //                     text: i.title
+    //                 })) : null
+    //             }
+    //             ,
+    //             e.prototype.renderLogoStub = function() {
+    //                 var t = this.b_;
+    //                 return this.props.logo ? a.create("yatag", {
+    //                     resourceId: "logo-stub",
+    //                     class: t("__logo-stub")
+    //                 }) : null
+    //             }
+    //             ,
+    //             e.prototype.renderAge = function(t) {
+    //                 void 0 === t && (t = "default");
+    //                 var e = this.b_
+    //                     , i = this.props.adv.age;
+    //                 return i ? a.create("yatag", {
+    //                     class: e("__age", "__age_" + t)
+    //                 }, i) : null
+    //             }
+    //             ,
+    //             e.prototype.renderAppIcon = function() {
+    //                 var t = this.b_
+    //                     , e = this.app;
+    //                 if (!e || !e.icon)
+    //                     return null;
+    //                 var i = e.icon
+    //                     , n = i.src
+    //                     , o = i.size
+    //                     , r = {
+    //                     width: o,
+    //                     height: o,
+    //                     "background-image": "url(" + n + ")"
+    //                 };
+    //                 return a.create("yatag", {
+    //                     class: t("__app-icon"),
+    //                     style: r
+    //                 })
+    //             }
+    //             ,
+    //             e.prototype.registerImageViewport = function(t) {
+    //                 var e = this
+    //                     , i = this.props.context;
+    //                 i.doOnReady(function() {
+    //                     return i.doOnReady(function() {
+    //                         var i = e.getResourceById(t);
+    //                         if (i) {
+    //                             var n = i.getElement();
+    //                             if (n) {
+    //                                 var o = y.getElementInnerSize(n)
+    //                                     , r = o.width / o.height
+    //                                     , a = e.getPicture()
+    //                                     , s = a.width
+    //                                     , l = a.height
+    //                                     , p = a.smartCenter
+    //                                     , c = s / l
+    //                                     , d = {
+    //                                     x: p.x + p.width / 2,
+    //                                     y: p.y + p.height / 2
+    //                                 }
+    //                                     , u = _.calcBackgroundPosition(d, r, c);
+    //                                 i.setStyle({
+    //                                     "background-position": 100 * u.x + "% " + 100 * u.y + "%"
+    //                                 })
+    //                             }
+    //                         }
+    //                     })
+    //                 })
+    //             }
+    //             ,
+    //             e
+    //     }(s);
+    //     e.AdvAdaptive = w
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     var n = Object.assign || function(t) {
+    //             for (var e, i = 1, n = arguments.length; i < n; i++)
+    //                 for (var o in e = arguments[i])
+    //                     Object.prototype.hasOwnProperty.call(e, o) && (t[o] = e[o]);
+    //             return t
+    //         }
+    //     ;
+    //     e.__esModule = !0;
+    //     var o = i(412);
+    //     e.prettify = function(t, e) {
+    //         var i = n({
+    //             gluePrepositions: !0,
+    //             maxGluedLength: 1 / 0,
+    //             softBreakPunct: !1
+    //         }, e);
+    //         if (function(t) {
+    //             return /[\u0404\u0406\u0407\u0454\u0456\u0457\u0490\u0491]/.test(t)
+    //         }(t))
+    //             return t;
+    //         var r = (t = o.htmlToUtf(t)).match(/"/g)
+    //             , a = new RegExp('(^|\\s)"([.\\-\\s\\da-zA-Z\u0430-\u044f\u0410-\u042f\u0451\u0401]{3,})"',"g")
+    //             , s = t.match(a);
+    //         return r && s && r.length % 2 == 0 && r.length / 2 === s.length && (t = t.replace(a, function(t, e, i) {
+    //             return /^[\-\s]|[\-\s]$|^[\-\s\d]+$/.test(i) ? t : e + "\xab" + i + "\xbb"
+    //         })),
+    //         i.gluePrepositions && (t = t.replace(new RegExp('(^|\\(|\\s)([\u0410\u0430]|[\u0411\u0431]\u0435\u0437|[\u0412\u0432](?:|\u044b|\u0430\u0441|\u0430\u043c|\u0441\u0435|\u0441\u0451)|[\u0413\u0433]\u0434\u0435|[\u0414\u0434](?:\u043e|\u043b\u044f)|[\u0417\u0437]\u0430|[\u0418\u0438](?:|\u0437)|[\u041a\u043a](?:|\u043e|\u0430\u043a)|[\u041c\u043c]\u044b|[\u041d\u043d](?:\u0430|\u0430\u043c|\u0430\u0441|\u0435|\u0438|\u043e)|[\u041e\u043e](?:|\u0431|\u0442)|[\u041f\u043f](?:\u043e|\u0440\u043e)|[\u0421\u0441](?:|\u043e)|[\u0422\u0442](?:\u043e|\u0443\u0442|\u044b)|[\u0423\u0443]|[\u0427\u0447]\u0442\u043e|[\u042d\u044d]\u0442\u043e)\\s([\xab"$\\da-zA-Z\u0430-\u044f\u0410-\u042f\u0451\u0401]+)',"g"), function(t, e, n, o) {
+    //             return (n + o).length + 1 <= i.maxGluedLength ? e + n + "\xa0" + o : t
+    //         })),
+    //         i.softBreakPunct && (t = t.replace(/([.,!?:;)+]+|[^<]\/|=(?!"))([^ -])(?!$|[.,!?:;)+=\/ ])/g, "$1<wbr />$2")),
+    //             t = t.replace(/([0-9]+) (?=[0-9]{3})/g, "$1\xa0").replace(/([0-9\u00A0]+) (\u0440|\u0440\u0443\u0431|\u0442\u044b\u0441|\u043c\u043b\u043d|\u043a\u043c|\u043c|\u0441\u043c|\u043c\u043c)(?=[.,?!:;\s]|$)/g, function(t, e, n) {
+    //                 return t.length <= i.maxGluedLength ? e + "\xa0" + n : t
+    //             }).replace(/ \-(\d\d?)%/g, " \u2212$1%").replace(/ !/, "\xa0!")
+    //     }
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     var n = i(77);
+    //     t.exports = {
+    //         on: n.on,
+    //         un: n.un
+    //     }
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     t.exports = i(21).indexOf
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     e.__esModule = !0;
+    //     var n = i(13);
+    //     e.callSafe = function(t) {
+    //         try {
+    //             return t()
+    //         } catch (t) {
+    //             return
+    //         }
+    //     }
+    //         ,
+    //         e.protect = function(t, i, o, r) {
+    //             return function() {
+    //                 try {
+    //                     return i.apply(o || this, arguments)
+    //                 } catch (i) {
+    //                     if (n.isFunction(r) && r(i),
+    //                     !0 === i.preventProtect)
+    //                         throw i;
+    //                     e.protect.log(i, t)
+    //                 }
+    //             }
+    //         }
+    //         ,
+    //         e.protect.log = function(t, e) {
+    //             console.log("LOG:" + e + ":" + t)
+    //         }
+    //         ,
+    //         e.protect.setTimeout = function(t, i, n, o) {
+    //             return window.setTimeout(e.protect("timeout", t, n, o), i)
+    //         }
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     e.__esModule = !0,
+    //         e.forOwn = function(t, e, i) {
+    //             for (var n in t)
+    //                 t.hasOwnProperty(n) && e.call(i, t[n], n, t)
+    //         }
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     e.__esModule = !0,
+    //         e.isString = function(t) {
+    //             return "string" == typeof t
+    //         }
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     function n() {
+    //         return window.Ya || (window.Ya = {})
+    //     }
+    //     function o() {
+    //         var t = n();
+    //         return t.Context || (t.Context = {})
+    //     }
+    //     e.__esModule = !0,
+    //         e.setGlobalVariable = function(t, e) {
+    //             o()[t] = e
+    //         }
+    //         ,
+    //         e.getGlobalVariable = function(t) {
+    //             return o()[t]
+    //         }
+    //         ,
+    //         e.getYa = n,
+    //         e.getYaContext = o
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     e.__esModule = !0,
+    //         e.noop = function() {
+    //             for (var t = [], e = 0; e < arguments.length; e++)
+    //                 t[e] = arguments[e]
+    //         }
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     e.__esModule = !0;
+    //     var n = i(177).getNativeMethod(Array, "isArray")
+    //         , o = {};
+    //     e.isArray = Boolean(n) ? function(t) {
+    //             return n.call(Array, t)
+    //         }
+    //         : function(t) {
+    //             return "[object Array]" === o.toString.call(o, t)
+    //         }
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     var n = i(195)
+    //         , o = i(128)
+    //         , r = i(196)
+    //         , a = i(10)
+    //         , s = i(127)
+    //         , l = i(356);
+    //     function p(t, e) {
+    //         if (e) {
+    //             var i = a.indexOf(e, t);
+    //             -1 !== i && (e[i] = null)
+    //         }
+    //     }
+    //     var c = a.augment(n, {
+    //         __embeddedResources: null,
+    //         __children: null,
+    //         __contextComponent: null,
+    //         __parentComponent: null,
+    //         __resourceId: null,
+    //         __state: null,
+    //         props: null,
+    //         constructor: function(t, e, i) {
+    //             this.__state = l.INITIAL,
+    //             (t = t || {}).hasOwnProperty("resourceId") && (this.__resourceId = t.resourceId,
+    //                 delete t.resourceId),
+    //                 this.__embeddedResources = [],
+    //                 this.__children = a.isArray(e) ? e : [],
+    //                 this.__contextComponent = i,
+    //             i && i.addToEmbeddedResources(this),
+    //                 this.props = this.initProps(t),
+    //                 this.onInit()
+    //         },
+    //         addToEmbeddedResources: function(t) {
+    //             this.__embeddedResources.push(t)
+    //         },
+    //         initProps: function(t) {
+    //             return t
+    //         },
+    //         destroy: function() {
+    //             this.unmount();
+    //             var t = this.getContextComponent();
+    //             t && t._removeFromEmbeddedResources(this);
+    //             var e = this.__parentComponent;
+    //             e && e._removeFromExternalResources(this),
+    //                 a.each(this.__children, function(t) {
+    //                     t instanceof n && t.destroy()
+    //                 }, this),
+    //                 this.onDestroy(),
+    //                 this.__state = l.DESTROYED
+    //         },
+    //         unmount: function() {
+    //             this._clearEmbeddedResources(),
+    //                 a.each(this.__children, function(t) {
+    //                     t instanceof n && t.unmount()
+    //                 }, this),
+    //                 this.onUnmount(),
+    //                 this.__state = l.UNMOUNTED
+    //         },
+    //         onInit: s,
+    //         onDestroy: s,
+    //         onUnmount: s,
+    //         onMount: s,
+    //         _clearEmbeddedResources: function() {
+    //             a.each(this.__embeddedResources, function(t) {
+    //                 t instanceof n && t.destroy()
+    //             }),
+    //                 this.__embeddedResources = []
+    //         },
+    //         _removeFromExternalResources: function(t) {
+    //             p(t, this.__children)
+    //         },
+    //         _removeFromEmbeddedResources: function(t) {
+    //             p(t, this.__embeddedResources)
+    //         },
+    //         findEmbeddedResources: function(t) {
+    //             var e = [];
+    //             if (!a.isFunction(t)) {
+    //                 var i = t;
+    //                 t = function(t) {
+    //                     return t.__resourceId === i
+    //                 }
+    //             }
+    //             return a.each(this.__embeddedResources, function(i) {
+    //                 i && t(i) && e.push(i)
+    //             }),
+    //                 e
+    //         },
+    //         getResourceById: function(t) {
+    //             for (var e = this.__embeddedResources, i = e.length, n = 0; n < i; n++) {
+    //                 var o = e[n];
+    //                 if (o && o.__resourceId === t)
+    //                     return o
+    //             }
+    //             return null
+    //         },
+    //         getParentComponent: function() {
+    //             return this.__parentComponent
+    //         },
+    //         getContextComponent: function() {
+    //             return this.__contextComponent
+    //         },
+    //         getChildren: function() {
+    //             return this.__children
+    //         },
+    //         pushCallback: function(t) {
+    //             r.push(t, this)
+    //         },
+    //         shouldRender: function() {
+    //             return !0
+    //         },
+    //         render: function() {
+    //             return this.getChildren()
+    //         },
+    //         callRendering: function(t) {
+    //             this.__state === l.MOUNTED ? this.unmount() : this.__parentComponent = o.getCurrentComponent();
+    //             var e, i = t(this);
+    //             return this.__lastElement = (e = i.childNodes).length ? e[e.length - 1] : null,
+    //                 this.__state = l.MOUNTED,
+    //                 i
+    //         },
+    //         update: function() {
+    //             return o.updateComponentInNode(this.__lastElement, this)
+    //         }
+    //     });
+    //     t.exports = c
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     e.__esModule = !0;
+    //     var n = [];
+    //     function o(t) {
+    //         return 0 === t.indexOf(e.FAKE_IMP_ID)
+    //     }
+    //     e.FAKE_IMP_ID = "100500",
+    //         e.generateImpId = function(t) {
+    //             var i = n.indexOf(t);
+    //             return -1 === i && (i = n.length,
+    //                 n.push(t)),
+    //             e.FAKE_IMP_ID + "_" + i
+    //         }
+    //         ,
+    //         e.isFakeImpId = o,
+    //         e.getRealImpId = function(t) {
+    //             return o(t) ? e.FAKE_IMP_ID : t
+    //         }
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     e.__esModule = !0;
+    //     var n = i(192)
+    //         , o = i(81);
+    //     e.compareArrays = function(t, e) {
+    //         for (var i = t.length, n = e.length, o = Math.min(i, n), r = 0; r < o; r++) {
+    //             if (t[r] < e[r])
+    //                 return -1;
+    //             if (t[r] > e[r])
+    //                 return 1
+    //         }
+    //         return i - n
+    //     }
+    //         ,
+    //         e.flushQueue = function(t, e) {
+    //             for (; t.length; )
+    //                 e(t.shift())
+    //         }
+    //         ,
+    //         e.getSectionLimit = function(t, e, i) {
+    //             for (var n = 0, o = 1 / 0, r = 0, a = 0, s = t; a < s.length; a++) {
+    //                 var l = s[a];
+    //                 if (n += l,
+    //                 e * (o = Math.min(o, l)) / n < i)
+    //                     return r;
+    //                 r++
+    //             }
+    //             return r
+    //         }
+    //         ,
+    //         e.createExpander = function() {
+    //             var t = document.createElement("div");
+    //             return n.setStyle(t, {
+    //                 display: "table",
+    //                 "table-layout": "fixed",
+    //                 width: "100%",
+    //                 height: "0",
+    //                 visibility: "hidden"
+    //             }),
+    //                 t.innerHTML = '<div style="display:table-row"><div style="display:table-cell"></div></div>',
+    //                 t
+    //         }
+    //         ,
+    //         e.calcAvg = function() {
+    //             for (var t = [], e = 0; e < arguments.length; e++)
+    //                 t[e] = arguments[e];
+    //             return o.reduce(t, function(t, e) {
+    //                 return t + e
+    //             }) / t.length
+    //         }
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     var n = i(96)
+    //         , o = i(2);
+    //     t.exports = function(t, e, i) {
+    //         return i || (i = t),
+    //             i.addClass(e.join(" ")),
+    //             o.each(e, function(e) {
+    //                 !function(t, e, i) {
+    //                     var o = t.getElement();
+    //                     (0,
+    //                         n.hasScrollInElement)(o) || (i.removeClass(e),
+    //                     (0,
+    //                         n.hasScrollInElement)(o) && i.addClass(e))
+    //                 }(t, e, i)
+    //             }),
+    //             (0,
+    //                 n.hasScrollInElement)(t.getElement())
+    //     }
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     var n;
+    //     n = i(204),
+    //         t.exports = n
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     e.__esModule = !0,
+    //         e.removeNodeFromParent = function(t) {
+    //             if (t) {
+    //                 var e = t.parentElement;
+    //                 e && e.removeChild(t)
+    //             }
+    //         }
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     var n, o = (n = Object.setPrototypeOf || {
+    //                 __proto__: []
+    //             }instanceof Array && function(t, e) {
+    //                 t.__proto__ = e
+    //             }
+    //             || function(t, e) {
+    //                 for (var i in e)
+    //                     e.hasOwnProperty(i) && (t[i] = e[i])
+    //             }
+    //             ,
+    //             function(t, e) {
+    //                 function i() {
+    //                     this.constructor = t
+    //                 }
+    //                 n(t, e),
+    //                     t.prototype = null === e ? Object.create(e) : (i.prototype = e.prototype,
+    //                         new i)
+    //             }
+    //     );
+    //     e.__esModule = !0;
+    //     var r = i(97)
+    //         , a = function(t) {
+    //         function e(e) {
+    //             return t.apply(this, arguments) || this
+    //         }
+    //         return o(e, t),
+    //             e.prototype.onInit = function() {
+    //                 var t = this.props;
+    //                 this.encodeStyles = this.getContextComponent().encodeStyles,
+    //                 this.encodeStyles && (t.text = r.encodeTemplate(t.text))
+    //             }
+    //             ,
+    //             e.prototype.beforeRender = function(t) {
+    //                 var e = this.props.text.toString() || "";
+    //                 return t.getCurrentElement().insertAdjacentHTML("beforeend", e),
+    //                     !1
+    //             }
+    //             ,
+    //             e
+    //     }(i(145));
+    //     e.Html = a
+    // }
+    // , function(t, e, i) {
+    //     "use strict";
+    //     e.__esModule = !0;
+    //     var n = i(387);
+    //     function o(t, e) {
+    //         var i = function(t, e) {
+    //             return e in t.style && n.getStyle(t).getPropertyValue(e) || "0"
+    //         }(t, "padding-" + e);
+    //         return parseFloat(i)
+    //     }
+    //     e.getElementInnerSize = function(t) {
+    //         return {
+    //             width: Math.max(0, t.clientWidth - o(t, "left") - o(t, "right")),
+    //             height: Math.max(0, t.clientHeight - o(t, "top") - o(t, "bottom"))
+    //         }
+    //     }
+    // }
     , function(t, e, i) {
         "use strict";
         e.__esModule = !0;
