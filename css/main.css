@@ -315,7 +315,7 @@ footer {
 }
 
 .card {
-    background: url("../img/cbg.jpg");
+    background: url("../img/cbg.webp");
     color: #333;
     border-radius: 20px;
     box-sizing: border-box;
@@ -331,7 +331,7 @@ footer {
     width: 108px;
     height: 27px;
     position: relative;
-    background-image: url("./assets/logo.png");
+    /* background-image: url("./assets/logo.png"); */
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
@@ -362,7 +362,7 @@ footer {
     padding: 0 20px 0 25px;
     display: flex;
     justify-content: space-between;
-    background: url("assets/sh.png") center center/cover no-repeat;
+    /* background: url("assets/sh.png") center center/cover no-repeat; */
 }
 .main__greeting {
     margin-top: 6px;
@@ -620,7 +620,7 @@ html {
     padding-right: 31px;
 }
 .weather__item_cloud-drizzle {
-    background: url("assets/cloud-drizzle.png") 100% 70%/26px no-repeat;
+    /* background: url("assets/cloud-drizzle.png") 100% 70%/26px no-repeat; */
 }
 .stats {
     opacity: 0;
@@ -702,7 +702,7 @@ html {
 }
 
 .description_critical {
-    background: url('../img/cbg.jpg');
+    background: url('../img/cbg.webp');
     color: #000;
     border-radius: 20px;
     margin-top: -20px;
@@ -729,7 +729,7 @@ html {
     width: 100%;
     margin-top: 40px;
     display: block;
-    background: url(../img/cam2.jpg);
+    background: url(../img/cam2.webp);
     border-radius: 20px;
     background-size: cover;
     background-position: 0 0;
@@ -921,7 +921,7 @@ html {
 }
 
 .video-volume {
-    background: url(../img/sound_n.png);
+    /* background: url(../img/sound_n.png); */
     background-size: cover;
     height: 40px;
     width: 40px;
@@ -931,7 +931,7 @@ html {
 
 .video-volume_unmuted {
     background: green;
-    background: url(../img/sound.png);
+    /* background: url(../img/sound.png); */
     background-size: cover
 }
 
