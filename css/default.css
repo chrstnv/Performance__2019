@@ -5155,7 +5155,9 @@ a.close.disabled {
   pointer-events: none;
 }
 
-.carousel {
+/* 8 */
+
+/* .carousel {
   position: relative;
 }
 
@@ -5248,9 +5250,9 @@ a.close.disabled {
   text-align: center;
   opacity: 0.5;
   transition: opacity 0.15s ease;
-}
+} */
 
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
   .carousel-control-next {
     transition: none;
@@ -5341,7 +5343,7 @@ a.close.disabled {
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
-}
+} */
 
 @keyframes spinner-border {
   to {
