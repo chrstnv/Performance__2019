@@ -5198,8 +5198,8 @@ a.close.disabled {
 .toast-body {
   padding: 0.75rem;
 }
-
-.modal-open {
+/* 6 */
+/* .modal-open {
   overflow: hidden;
 }
 
@@ -5230,8 +5230,8 @@ a.close.disabled {
 .modal.fade .modal-dialog {
   transition: transform 0.3s ease-out;
   transform: translate(0, -50px);
-}
-
+} */
+/*
 @media (prefers-reduced-motion: reduce) {
   .modal.fade .modal-dialog {
     transition: none;
@@ -5245,8 +5245,8 @@ a.close.disabled {
 .modal-dialog-scrollable {
   display: flex;
   max-height: calc(100% - 1rem);
-}
-
+} */
+/*
 .modal-dialog-scrollable .modal-content {
   max-height: calc(100vh - 1rem);
   overflow: hidden;
@@ -5265,9 +5265,9 @@ a.close.disabled {
   display: flex;
   align-items: center;
   min-height: calc(100% - 1rem);
-}
+} */
 
-.modal-dialog-centered::before {
+/* .modal-dialog-centered::before {
   display: block;
   height: calc(100vh - 1rem);
   content: "";
@@ -5281,9 +5281,9 @@ a.close.disabled {
 
 .modal-dialog-centered.modal-dialog-scrollable .modal-content {
   max-height: none;
-}
+} */
 
-.modal-dialog-centered.modal-dialog-scrollable::before {
+/* .modal-dialog-centered.modal-dialog-scrollable::before {
   content: none;
 }
 
@@ -5298,9 +5298,9 @@ a.close.disabled {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
   outline: 0;
-}
+} */
 
-.modal-backdrop {
+/* .modal-backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -5316,9 +5316,9 @@ a.close.disabled {
 
 .modal-backdrop.show {
   opacity: 0.5;
-}
+} */
 
-.modal-header {
+/* .modal-header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -5336,8 +5336,8 @@ a.close.disabled {
 .modal-title {
   margin-bottom: 0;
   line-height: 1.5;
-}
-
+} */
+/*
 .modal-body {
   position: relative;
   flex: 1 1 auto;
@@ -5360,9 +5360,9 @@ a.close.disabled {
 
 .modal-footer > :not(:last-child) {
   margin-right: .25rem;
-}
+} */
 
-.modal-scrollbar-measure {
+/* .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
   width: 50px;
@@ -5390,8 +5390,8 @@ a.close.disabled {
   .modal-sm {
     max-width: 300px;
   }
-}
-
+} */
+/*
 @media (min-width: 992px) {
   .modal-lg,
   .modal-xl {
@@ -5403,7 +5403,7 @@ a.close.disabled {
   .modal-xl {
     max-width: 1140px;
   }
-}
+} */
 
 .tooltip {
   position: absolute;
@@ -6517,9 +6517,6 @@ button.bg-dark:focus {
   align-self: stretch !important;
 }
 
-/* 5 */
-/*
-
 @media (min-width: 576px) {
   .flex-sm-row {
     flex-direction: row !important;
@@ -7064,7 +7061,7 @@ button.bg-dark:focus {
   bottom: 0;
   left: 0;
   z-index: 1030;
-} */
+}
 
 
 /* check */
