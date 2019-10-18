@@ -6151,6 +6151,8 @@ button.bg-dark:focus {
   content: "";
 }
 
+/* 4 */
+/*
 .d-none {
   display: none !important;
 }
@@ -6514,9 +6516,9 @@ button.bg-dark:focus {
 
 .align-self-stretch {
   align-self: stretch !important;
-}
+} */
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .flex-sm-row {
     flex-direction: row !important;
   }
@@ -6724,8 +6726,8 @@ button.bg-dark:focus {
   .align-self-md-stretch {
     align-self: stretch !important;
   }
-}
-
+} */
+/*
 @media (min-width: 992px) {
   .flex-lg-row {
     flex-direction: row !important;
@@ -7180,7 +7182,7 @@ button.bg-dark:focus {
   pointer-events: auto;
   content: "";
   background-color: rgba(0, 0, 0, 0);
-}
+} */
 
 /* 3 */
 /*.m-0 {
