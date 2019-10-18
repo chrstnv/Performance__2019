@@ -6726,8 +6726,6 @@ button.bg-dark:focus {
   }
 }
 
-/* 4 */
-/*
 @media (min-width: 992px) {
   .flex-lg-row {
     flex-direction: row !important;
@@ -7107,6 +7105,10 @@ button.bg-dark:focus {
 .shadow-none {
   box-shadow: none !important;
 }
+
+
+/* 4 */
+/*
 
 .w-25 {
   width: 25% !important;
