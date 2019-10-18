@@ -1,5 +1,16 @@
 "use strict";
 
+window.addEventListener('DOMContentLoaded', () => {
+  const multimediaScript = document.createElement('script');
+  const buttonsContainer = document.querySelector('.buttons-wrap');
+
+  buttonsContainer.innerHTML =
+    '<button class="button button_yellow" type="button">Да</button>' +
+    '<button class="button">Нет</button>';
+
+  document.querySelector('.multimedia').appendChild(multimediaScript);
+});
+
 const output = document.querySelector('.modal__value');
 const rangeSLider = document.querySelector('.adjust-bar.adjust-bar_theme_temp');
 
