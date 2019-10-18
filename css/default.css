@@ -1187,7 +1187,9 @@ mark,
   }
 }
 
-.nav {
+/* 20 */
+
+/* .nav {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
@@ -1266,7 +1268,7 @@ mark,
   flex-basis: 0;
   flex-grow: 1;
   text-align: center;
-}
+} */
 
 .tab-content > .tab-pane {
   display: none;
@@ -2544,7 +2546,7 @@ button.bg-dark:focus {
 
 /* 20 */
 
-/* .stretched-link::after {
+.stretched-link::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -2554,4 +2556,4 @@ button.bg-dark:focus {
   pointer-events: auto;
   content: "";
   background-color: rgba(0, 0, 0, 0);
-} */
+}
