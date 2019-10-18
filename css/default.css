@@ -2351,7 +2351,7 @@ button.bg-dark:focus {
 }
 
 /* 20 */
-/* .purchase-list {
+.purchase-list {
     padding: 0 40px;
 }
 
@@ -2371,7 +2371,7 @@ button.bg-dark:focus {
       width: 20px;
       height: 20px;
       background: url("../img/checked.svg");
-} */
+}
 
 .float-left {
   float: left !important;
@@ -2546,7 +2546,7 @@ button.bg-dark:focus {
 
 /* 20 */
 
-.stretched-link::after {
+/* .stretched-link::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -2556,4 +2556,4 @@ button.bg-dark:focus {
   pointer-events: auto;
   content: "";
   background-color: rgba(0, 0, 0, 0);
-}
+} */
