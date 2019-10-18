@@ -153,8 +153,8 @@ document.querySelectorAll('.modal__filter-item_temp').forEach(l => {
 });
 
 const showModal = function(selector) {
-    // document.querySelector(selector).classList.toggle('modal_open', true);
-    // document.querySelector('body').style.overflow = 'hidden';
+    document.querySelector(selector).classList.toggle('modal_open', true);
+    document.querySelector('body').style.overflow = 'hidden';
 }
 
 
@@ -268,8 +268,8 @@ document.addEventListener("DOMContentLoaded", function () {
         purchaseList.appendChild(purchaseListItemTwo);
 
         confirmPurchaseButton.onclick = () => {
-            // fridgeInfoContainer.replaceWith(purchaseListContainer)
-            // buttonsContainer.style.display = "none";
+            fridgeInfoContainer.replaceWith(purchaseListContainer)
+            buttonsContainer.style.display = "none";
         }
     }, 500)
 
