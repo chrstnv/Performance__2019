@@ -18,7 +18,6 @@ $('.card').each(function(e) {
     }
 });
 
-
 let curValue;
 let curRotate;
 let maxRotate = 0.42; // 150 градусов
