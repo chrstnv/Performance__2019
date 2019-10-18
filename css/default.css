@@ -61,16 +61,6 @@ body {
   background-color: #fff;
 }
 
-/* [tabindex="-1"]:focus {
-  outline: 0 !important;
-}
-
-hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
-} */
-
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -116,31 +106,9 @@ table {
   border-collapse: collapse;
 }
 
-/* caption {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  color: #6c757d;
-  text-align: left;
-  caption-side: bottom;
-}
-
-th {
-  text-align: inherit;
-} */
-
-/* label {
-  display: inline-block;
-  margin-bottom: 0.5rem;
-} */
-
 button {
   border-radius: 0;
 }
-
-/* button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-} */
 
 button,
 select,
@@ -161,10 +129,6 @@ button,
 select {
   text-transform: none;
 }
-
-/* select {
-  word-wrap: normal;
-} */
 
 button,
 [type="button"],
@@ -200,34 +164,6 @@ input[type="datetime-local"],
 input[type="month"] {
   -webkit-appearance: listbox;
 }
-
-/* textarea {
-  overflow: auto;
-  resize: vertical;
-}
-
-fieldset {
-  min-width: 0;
-  padding: 0;
-  margin: 0;
-  border: 0;
-} */
-
-/* legend {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  padding: 0;
-  margin-bottom: .5rem;
-  font-size: 1.5rem;
-  line-height: inherit;
-  color: inherit;
-  white-space: normal;
-} */
-
-/* progress {
-  vertical-align: baseline;
-} */
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
@@ -413,55 +349,6 @@ mark,
   font-size: 90%;
   color: #6c757d;
 }
-
-/* code {
-  font-size: 87.5%;
-  color: #e83e8c;
-  word-break: break-word;
-}
-
-a > code {
-  color: inherit;
-} */
-/*
-kbd {
-  padding: 0.2rem 0.4rem;
-  font-size: 87.5%;
-  color: #fff;
-  background-color: #212529;
-  border-radius: 0.2rem;
-}
-
-kbd kbd {
-  padding: 0;
-  font-size: 100%;
-  font-weight: 700;
-} */
-
-/* pre {
-  display: block;
-  font-size: 87.5%;
-  color: #212529;
-}
-
-pre code {
-  font-size: inherit;
-  color: inherit;
-  word-break: normal;
-} */
-
-/* .pre-scrollable {
-  max-height: 340px;
-  overflow-y: scroll;
-}
-
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-} */
 
 @media (min-width: 576px) {
   .container {
