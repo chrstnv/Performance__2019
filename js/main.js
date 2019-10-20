@@ -98,7 +98,7 @@ window.addEventListener('DOMContentLoaded', () => {
     '<button class="button">Нет</button>';
 });
 
-document.addEventListener(
+window.addEventListener(
   'DOMContentLoaded',
   function() {
     const buttonsContainer = document.querySelector('.buttons-wrap');
@@ -106,7 +106,7 @@ document.addEventListener(
     const fridgeInfoContainer = document.querySelector(
       '.card_size_m:nth-child(8) .card-description'
     );
-    setTimeout(function() {
+    // setTimeout(function() {
       const confirmPurchaseButton = document.querySelector('.buttons-wrap .button_yellow');
 
       console.log('confirmPurchaseButton doc', confirmPurchaseButton);
@@ -138,7 +138,7 @@ document.addEventListener(
         fridgeInfoContainer.replaceWith(purchaseListContainer);
         buttonsContainer.style.display = 'none';
       };
-    }, 500);
+    // }, 500);
 
     document
       .getElementsByClassName('header-menu__switcher')[0]
