@@ -18,36 +18,36 @@ $('.card').each(function(e) {
   }
 });
 
-let curValue;
-let curRotate;
-let maxRotate = 0.42; // 150 градусов
-let minRotate = -0.42; // -150 градусов
+// let curValue;
+// let curRotate;
+// let maxRotate = 0.42; // 150 градусов
+// let minRotate = -0.42; // -150 градусов
 
-const MIN_VALUE = 26;
-const MAX_VALUE = 35;
-const INDICATOR_OFFSET = 265;
+// const MIN_VALUE = 26;
+// const MAX_VALUE = 35;
+// const INDICATOR_OFFSET = 265;
 
-const rotateToValue = function(rotate) {
-  return Math.floor(Math.abs(rotate * 360 * 1.73 + INDICATOR_OFFSET) / 53 + MIN_VALUE);
-};
+// const rotateToValue = function(rotate) {
+//   return Math.floor(Math.abs(rotate * 360 * 1.73 + INDICATOR_OFFSET) / 53 + MIN_VALUE);
+// };
 
-function setEvtListeners() {
-  const elem = document.querySelector('.knob-container');
-}
+// function setEvtListeners() {
+//   const elem = document.querySelector('.knob-container');
+// }
 
-setEvtListeners();
+// setEvtListeners();
 
-const TEMPS = {
-  manual: -10,
-  cold: 0,
-  warm: 23,
-  hot: 30
-};
+// const TEMPS = {
+//   manual: -10,
+//   cold: 0,
+//   warm: 23,
+//   hot: 30
+// };
 
-const showModal = function(selector) {
-  document.querySelector(selector).classList.toggle('modal_open', true);
-  document.querySelector('body').style.overflow = 'hidden';
-};
+// const showModal = function(selector) {
+//   document.querySelector(selector).classList.toggle('modal_open', true);
+//   document.querySelector('body').style.overflow = 'hidden';
+// };
 
 document.addEventListener('DOMContentLoaded', function() {
   $('.card').each(function(e) {
@@ -90,18 +90,19 @@ window.addEventListener('scroll', function() {
   widths += document.querySelectorAll('body')[0].offsetWidth;
 });
 
-window.addEventListener('DOMContentLoaded', () => {
+// window.addEventListener('DOMContentLoaded', () => {
   const buttonsContainer = document.querySelector('.buttons-wrap');
 
   buttonsContainer.innerHTML =
     '<button class="button button_yellow" type="button">Да</button>' +
     '<button class="button">Нет</button>';
-});
+// });
 
-window.addEventListener(
-  'DOMContentLoaded',
-  function() {
-    const buttonsContainer = document.querySelector('.buttons-wrap');
+// window.addEventListener(
+//   'DOMContentLoaded',
+//   function() {
+
+    // const buttonsContainer = document.querySelector('.buttons-wrap');
     console.log('buttonsContainer doc', buttonsContainer);
     const fridgeInfoContainer = document.querySelector(
       '.card_size_m:nth-child(8) .card-description'
@@ -145,6 +146,6 @@ window.addEventListener(
       .addEventListener('click', function() {
         document.getElementsByClassName('header-menu')[0].classList.toggle('header-menu_active');
       });
-  },
-  !1
-);
+//   },
+//   !1
+// );
