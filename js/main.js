@@ -10,53 +10,22 @@ const devices = document.querySelector('.devices');
 const pagiantorDevs = document.querySelector('.devices__paginator');
 let currentPageDevs = 1;
 
-$('.card').each(function(e) {
-  if ($(this).hasClass('card_size_s')) {
-    $(this).css({ 'border-radius': '22px' });
-  } else {
-    $(this).css({ 'border-radius': '54px' });
-  }
-});
-
-// let curValue;
-// let curRotate;
-// let maxRotate = 0.42; // 150 градусов
-// let minRotate = -0.42; // -150 градусов
-
-// const MIN_VALUE = 26;
-// const MAX_VALUE = 35;
-// const INDICATOR_OFFSET = 265;
-
-// const rotateToValue = function(rotate) {
-//   return Math.floor(Math.abs(rotate * 360 * 1.73 + INDICATOR_OFFSET) / 53 + MIN_VALUE);
-// };
-
-// function setEvtListeners() {
-//   const elem = document.querySelector('.knob-container');
-// }
-
-// setEvtListeners();
-
-// const TEMPS = {
-//   manual: -10,
-//   cold: 0,
-//   warm: 23,
-//   hot: 30
-// };
-
-// const showModal = function(selector) {
-//   document.querySelector(selector).classList.toggle('modal_open', true);
-//   document.querySelector('body').style.overflow = 'hidden';
-// };
+// $('.card').each(function(e) {
+//   if ($(this).hasClass('card_size_s')) {
+//     $(this).css({ 'border-radius': '22px' });
+//   } else {
+//     $(this).css({ 'border-radius': '54px' });
+//   }
+// });
 
 document.addEventListener('DOMContentLoaded', function() {
-  $('.card').each(function(e) {
-    if ($(this).hasClass('card_size_s')) {
-      $(this).css({ 'border-radius': '22px' });
-    } else {
-      $(this).css({ 'border-radius': '23px' });
-    }
-  });
+  // $('.card').each(function(e) {
+  //   if ($(this).hasClass('card_size_s')) {
+  //     $(this).css({ 'border-radius': '22px' });
+  //   } else {
+  //     $(this).css({ 'border-radius': '23px' });
+  //   }
+  // });
   var waterContainer = document.querySelector('.card.card_size_s:last-child');
 
   waterContainer.innerHTML =
@@ -90,62 +59,46 @@ window.addEventListener('scroll', function() {
   widths += document.querySelectorAll('body')[0].offsetWidth;
 });
 
-// window.addEventListener('DOMContentLoaded', () => {
-  const buttonsContainer = document.querySelector('.buttons-wrap');
+const buttonsContainer = document.querySelector('.buttons-wrap');
 
-  buttonsContainer.innerHTML =
-    '<button class="button button_yellow" type="button">Да</button>' +
-    '<button class="button">Нет</button>';
-// });
+buttonsContainer.innerHTML =
+  '<button class="button button_yellow" type="button">Да</button>' +
+  '<button class="button">Нет</button>';
 
-// window.addEventListener(
-//   'DOMContentLoaded',
-//   function() {
+console.log('buttonsContainer doc', buttonsContainer);
+const fridgeInfoContainer = document.querySelector('.card_size_m:nth-child(8) .card-description');
+const confirmPurchaseButton = document.querySelector('.buttons-wrap .button_yellow');
 
-    // const buttonsContainer = document.querySelector('.buttons-wrap');
-    console.log('buttonsContainer doc', buttonsContainer);
-    const fridgeInfoContainer = document.querySelector(
-      '.card_size_m:nth-child(8) .card-description'
-    );
-    // setTimeout(function() {
-      const confirmPurchaseButton = document.querySelector('.buttons-wrap .button_yellow');
+console.log('confirmPurchaseButton doc', confirmPurchaseButton);
 
-      console.log('confirmPurchaseButton doc', confirmPurchaseButton);
+const purchaseListContainer = document.createElement('div');
+const purchaseListTitle = document.createElement('p');
+const purchaseList = document.createElement('ol');
+const purchaseListItemOne = document.createElement('li');
+const purchaseListItemTwo = document.createElement('li');
 
-      const purchaseListContainer = document.createElement('div');
-      const purchaseListTitle = document.createElement('p');
-      const purchaseList = document.createElement('ol');
-      const purchaseListItemOne = document.createElement('li');
-      const purchaseListItemTwo = document.createElement('li');
+purchaseListContainer.setAttribute('class', 'purchase-list-wrap');
+purchaseListTitle.setAttribute(
+  'class',
+  'card-description card-description_big description_critical'
+);
+purchaseListTitle.textContent = 'Список покупок:';
+purchaseList.setAttribute('class', 'purchase-list');
+purchaseListItemOne.setAttribute('class', 'purchase-list__item');
+purchaseListItemOne.textContent = 'Хлеб';
+purchaseListItemTwo.setAttribute('class', 'purchase-list__item');
+purchaseListItemTwo.textContent = 'Молоко';
 
-      purchaseListContainer.setAttribute('class', 'purchase-list-wrap');
-      purchaseListTitle.setAttribute(
-        'class',
-        'card-description card-description_big description_critical'
-      );
-      purchaseListTitle.textContent = 'Список покупок:';
-      purchaseList.setAttribute('class', 'purchase-list');
-      purchaseListItemOne.setAttribute('class', 'purchase-list__item');
-      purchaseListItemOne.textContent = 'Хлеб';
-      purchaseListItemTwo.setAttribute('class', 'purchase-list__item');
-      purchaseListItemTwo.textContent = 'Молоко';
+purchaseListContainer.appendChild(purchaseListTitle);
+purchaseListContainer.appendChild(purchaseList);
+purchaseList.appendChild(purchaseListItemOne);
+purchaseList.appendChild(purchaseListItemTwo);
 
-      purchaseListContainer.appendChild(purchaseListTitle);
-      purchaseListContainer.appendChild(purchaseList);
-      purchaseList.appendChild(purchaseListItemOne);
-      purchaseList.appendChild(purchaseListItemTwo);
+confirmPurchaseButton.onclick = () => {
+  fridgeInfoContainer.replaceWith(purchaseListContainer);
+  buttonsContainer.style.display = 'none';
+};
 
-      confirmPurchaseButton.onclick = () => {
-        fridgeInfoContainer.replaceWith(purchaseListContainer);
-        buttonsContainer.style.display = 'none';
-      };
-    // }, 500);
-
-    document
-      .getElementsByClassName('header-menu__switcher')[0]
-      .addEventListener('click', function() {
-        document.getElementsByClassName('header-menu')[0].classList.toggle('header-menu_active');
-      });
-//   },
-//   !1
-// );
+document.getElementsByClassName('header-menu__switcher')[0].addEventListener('click', function() {
+  document.getElementsByClassName('header-menu')[0].classList.toggle('header-menu_active');
+});
